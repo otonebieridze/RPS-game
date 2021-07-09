@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RPS game</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <script src="https://kit.fontawesome.com/7198c062c7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1 id="title">RPS Game</h1>
+        <div id="resContainer">
+            <h1 id="res"></h1>
+        </div>
+        <div id="container">
+            <div id="textContainer">
+                <p id="text">Player: <u id='playerResult'>0</u></p>
+                <p id="text">Bot: <u id='botResult'>0</u></p>
+            </div>
+            <div id="boxContainer">
+                <div id="box">
+                    <i class="fas fa-hand-rock hand" id="rock1"></i>
+                    <i class="fas fa-hand-scissors hand" id="scissors1"></i>
+                    <i class="fas fa-hand-paper hand" id="paper1"></i>
+                </div>
+                <p>VS</p>
+                <div id="box">
+                    <i class="fas fa-hand-rock hand" id="rock2"></i>
+                    <i class="fas fa-hand-scissors hand" id="scissors2"></i>
+                    <i class="fas fa-hand-paper hand" id="paper2"></i>
+                </div>
+            </div>
+            <center><u id="choose">choose:</u></center>
+            <div id="chooseContainer">
+                <h1 id="tryAgain">Try again</h1>
+                <i class="fas fa-hand-rock" id="rock"></i>
+                <i class="fas fa-hand-scissors" id="scissors"></i>
+                <i class="fas fa-hand-paper" id="paper"></i>
+            </div>
+        </div>
+    </body>
+</html>
